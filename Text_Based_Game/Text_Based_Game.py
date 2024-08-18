@@ -88,7 +88,7 @@ def attack(char):
     attack1 = random.randint(0,5)
     fake_attack = {attack1,random.randint(0,5),random.randint(0,5)}
     # print(f"Original Value : {attack1}")
-    print(f"Select Range To Run : {fake_attack}")
+    print(f"Select Power To Attack : {fake_attack}")
     attack2 = int(input(">>> "))
     if(attack1 == attack2):
         print("You Killed The Beast...")
